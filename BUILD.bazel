@@ -10,10 +10,10 @@ cc_library(
     includes = ["include"],
     hdrs = glob(_public_hdrs),
     deps = [
-        "@boost//core",
-        "@boost//config",
-        "@boost//assert",
-        "@boost//static_assert",
-        "@boost//throw_exception",
+        "@boost//libs/core",
+        "@boost//libs/config",
+        "@boost//libs/assert",
+        "@boost//libs/static_assert",
+        "@boost//libs/throw_exception",
     ],
 )
